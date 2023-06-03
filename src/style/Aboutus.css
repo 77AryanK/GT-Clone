@@ -1,0 +1,103 @@
+
+/* .aboutus-section-1{
+    
+} */
+
+.aboutus-heading{
+    background-color:#cfe9cf;
+    font-size:4.063rem;
+    text-align: center;
+    height: 6.25rem;
+    line-height: 96px;
+}
+
+/* .aboutus-s1-heading{
+} */
+
+.aboutus-heading-span-greeen-bolder{
+    color: #00AA13;
+    font-weight: bolder;
+    
+}
+
+.aboutus-video-container-1{
+    /* height: 40rem; */
+    padding: 2.5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .aboutus-video-container-2{
+
+} */
+
+
+.aboutus-video iframe{
+    /* aspect-ratio: 720/425; */
+    width: 60.375rem;
+    height: 35.638rem;
+}
+
+
+.leadship-slider-card{
+    background-color: #cfe9cf;
+    height: 25rem;
+    width: 19rem;
+    border-radius: 11px;
+}
+
+.button-viewmore{
+    /* background-color: white; */
+    font-size: medium;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button-viewmore:hover{
+    background-color:rgb(245, 243, 243) ;
+    color: #0d6efd;
+}
+
+.leadership-leader-name{
+    font-weight:bold ;
+    font-size:1.4rem ;
+    /* width: 50%; */
+}
+
+.position-relative{
+    position: relative;
+    bottom: 50px;
+}
+
+
+.milestones-image{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/greentiger.in-content/website_3_0/logo.png);
+    background-size: contain;
+    background-position: 50% ;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

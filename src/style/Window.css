@@ -1,0 +1,233 @@
+
+
+/* model positons styling properties */
+
+.window_position{
+  position: absolute;
+  /* top: 405%; */
+  top: 500%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 50;
+  border: 1.4px solid black;
+  overflow:auto; /* get scrollbar by using this by limiting a window size and extra part will be down the scroll */
+  background-color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****   MODEL - 1 - BOOK NOW BUTTON   ***** */
+
+.models-scrollbar1::-webkit-scrollbar{  /* control the scroll properties */
+  /* color: #00AA13; */
+  width: 0.5rem;
+}
+
+.models-scrollbar2::-webkit-scrollbar{
+  width: 0.3rem;
+}
+/*  */
+/* ::-webkit-scrollbar-track{ the horizantal path on which the scrollbar thumb is present */
+  /* background-color:white; */
+/* } */
+
+.models-scrollbar::-webkit-scrollbar-thumb{ /* the part of scroll bar that we click and drag up and down */
+  background-color:#00AA13;
+  border-radius: 36rem;
+  /* height:1rem; */
+}
+
+.models-scrollbar2::-webkit-scrollbar-thumb{
+  background-color:#00AA13;
+  /* border-radius: 56rem; */
+}
+
+
+.close-model {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 4rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+
+.model-booknow { /* whole model*/
+    width: 24rem;
+    height: 550px;
+    padding: 3rem 2rem 1rem 2rem;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  }
+
+
+  .booknow-input{ /* input sections */
+    width: 89%;
+    height: 1.475rem;
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid rgb(183, 182, 182);
+    font-size: medium;
+  }
+
+
+.model-booknow-form{ /* form of input secitons */
+  display: flex;
+  flex-direction: column;
+  line-height: 5rem;
+  
+  }
+
+
+.booknow-submitbtn{
+  width: 100%;
+  height: 2rem;
+  font-size:16px ;
+  background-color: #00AA13;
+  border-radius: 6px;
+}
+
+
+.booknow-submitbtn:hover{
+  background-color:#168823;
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(71, 71, 71, 0.6);
+    backdrop-filter: blur(2px);
+    z-index: 50;
+  }
+
+
+/* .hidden{
+  display: none;
+} */
+
+
+
+
+/*---------------------------------------------------------------------------  */
+/* ****    MODEL - 2 - EMI CALCULATOR    ***** */
+
+
+
+.model-EMIcalcualtor { /* whole model*/
+  width: 30rem;
+  height: 32rem;
+  padding: 0.5rem 1.5rem 1rem 1.5rem;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  /* justify-content: ; */
+}
+
+
+.fsize-16{
+  font-size: 16px;
+}
+
+
+.fsize-12{
+  font-size:12px ;
+  color: #808080;
+}
+
+
+.EMI-bank-rows{
+  display: flex;
+  justify-content: space-between;
+  line-height: 44px;
+  /* padding: 0px 17px; */
+}
+
+
+.model-window-btns-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.model-window-btns{
+  padding: 0px 0px 17px 16px;
+}
+
+
+.fsize17-bgcolor{
+  color: white;
+  background-color: #00AA13;
+  font-size: 17px;
+
+}
+
+
+.window-btn{
+  height:1.7rem ;
+  width:3.7rem;
+}
+
+
+.EMI-btn-calculate{
+  height:1.7rem ;
+  width:5.6rem;
+  /* border: 1px solid black; */
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------  */
+/*    ************   SAVING CALCULATOR    ***********      */
+
+
+
+.window_saving_calculator{
+  width: 54%;
+  /* height: 75vh; */
+  padding: 0.5rem 2rem 1rem 2rem;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.fsize20{
+  font-size: 20px;
+}
+
+.display{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.savingCalc-btn-calculate{
+  height:2rem ;
+  width:20.313rem;
+  /* border: 1px solid black; */
+}
+
+
+
+
+
+
+
+
+

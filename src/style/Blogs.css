@@ -1,0 +1,71 @@
+
+
+.blogs-containera{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0 ;
+}
+
+.blogs-containerb{
+    /* background-color:rgb(235, 235, 235); */
+    height: 35.186rem;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blogbox{
+    background-color: white;
+    width: 80%;
+    height: 100%;
+    box-shadow: 0px 8px 40px -20px;
+}
+
+.blog-text2,li{
+    font-size:1rem;
+}
+
+.updates{
+    width: 25%;
+    height: 100%;
+    padding: 0px 0px 0px 3rem ;
+}
+
+
+
+
+.blog-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% ;
+    height: 24.063rem;
+    width: 45%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
