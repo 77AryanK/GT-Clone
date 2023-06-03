@@ -14,8 +14,8 @@ import '../style/Window.css'
 
 
 function Home() {
-  const  [isOpenEMI,setIsOpenEMI] = useState(false)
-  const  onCloseEMI =  () => setIsOpenEMI(false)
+  //const  [isOpenEMI,setIsOpenEMI] = useState(false)
+  //const  onCloseEMI =  () => setIsOpenEMI(false)
 
   return (
    <div className='home scrollbar-hidden'>
@@ -160,9 +160,9 @@ function Home() {
           <div className='container2 container2-2 '>
             <div className='conatiner-btnsA'>
               <div className='conatiner-btnsB'>
-                <div className='container-button'><button className='button button-emicalculator' onClick={() => setIsOpenEMI(true)} ><CalculateIcon/>EMI CALCULATOR</button></div>
-                <EMIcalculator open={isOpenEMI} onCloseEMI={onCloseEMI}/>
-
+                //<div className='container-button'><button className='button button-emicalculator' onClick={() => setIsOpenEMI(true)} ><CalculateIcon/>EMI CALCULATOR</button></div>
+                //<EMIcalculator open={isOpenEMI} onCloseEMI={onCloseEMI}/>
+                <div className='container-button'><button className='button button-emicalculator'><CalculateIcon/>EMI CALCULATOR</button></div>
                 <div className='container-button'><button className='button button-svaingcalculator'><CalculateIcon/>SAVING CALCULATOR</button></div>
                 <div className='container-button'><button className='button button-booknow'><TouchAppIcon/>BOOK NOW</button></div>
                 <div className='container-button'><button className='button button-faq'><LiveHelpIcon/>FAQ</button></div>
